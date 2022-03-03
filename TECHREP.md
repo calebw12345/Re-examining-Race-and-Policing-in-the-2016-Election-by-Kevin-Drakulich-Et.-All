@@ -74,39 +74,42 @@ Support for BLM
 
 	To outline what is meant by “Support for Blm” we refer back to the ANES codebook. The participants were asked “How would you rate the black lives matter movement?” on a scale of one to one hundred, one being extremely cold and one hundred being extremely warm. Originally, in the authors explanation of their findings on this variable's relationship with likelihood of voting they state that there is a significant positive correlation in Democrats and a significant Negative correlation for republicans. This statement is furthermore supported by their visualizations that were produced as shown below: 
 	
-Figure 1: Original Article’s BLM Warmth Graph
+Figure 1: Original Article’s BLM Warmth Graph (refer to page 15 of https://onlinelibrary.wiley.com/doi/epdf/10.1111/1745-9125.12239)
+
 	Our findings display slightly different results than theirs, but not to say that the authors original findings are necessarily wrong, because they’re not. Our findings are displayed below in Figure 2 and the authors’ above in Figure 1. We found that in both Democrats and Republicans there is very little to no statistically significant relationship between likelihood of voting and BLM warmth. The confidence intervals produced as shown below are nearly identical to that of the authors. So there is a SOME sort of relationship shown in the visualizations we produced, and in fact the relationships we found are even aligning with that of the original study, but because the relationship is so “weak” or lacking strong association we cannot say that the authors original findings are correct in every manner. The sample size that the authors used simply have more variance than that of ours, which have produced a set of visualizations that also have more variance than that of our own. This explains the lack of statistical relationship in our BLM warmth graphs as compared to the authors. This may be contradictory to what you have been traditionally taught in statistics. We hypothesize that due to the polarity of the answers used in the study, this leads to the increase in variance in the authors findings.
 
-Figure 2: Republican BLM Warmth (Left) and Democrat BLM Warmth (Right)
+Figure 2: Republican BLM Warmth (Left) and Democrat BLM Warmth (Right) (refer to corresponding labeled graphs in RCODE.R)
 
 
 Support for Police
 
 The graph in Figure 3 shown below displays the relationship between support for the police and probability of voting in the 2016 election. The support for the police was based on a scale of 1-100 and was asked to the participants of the ANES survey. We categorized democrats as self-identified democrats and republicans as self-identified republicans. We did not take into account how liberal or conservative a person was because we did not want to assume their political affiliation based on their political ideologies even though we understand they overlap at times.
 	
-Figure 3: Original Article’s Police Warmth Graph
+Figure 3: Original Article’s Police Warmth Graph( refer to page 15 of https://onlinelibrary.wiley.com/doi/epdf/10.1111/1745-9125.12239)
+
 	As you can see in Figure 3, as a democrat is more warm to the police, there is little to no change in their probability of voting. This makes sense because the article supports the fact that democrats are less supportive of the police as compared to the republicans so we can expect to see no correlation between their probability of voting due to an increase in police support. For republicans on the other hand, we can see a largely positive correlation between the support for the police and their probability of voting. There is a strong upward trend in the graph, going from below 50 percent to around 80 percent. This strong evidence of correlation supports the original data that the author showed in his graph. This makes us believe that there is strong evidence to support the fact that Republicans that are more supportive of the police are more likely to vote. In our duplication of this chart as shown below in Figure 4, the main differences we see are very minimal. For the democratic line, in our duplication they are both very straight but our visualizations minimum values were higher. For the duplication of the republican graph we see that the trend is very similar, yet the confidence interval when the police warmth is low is a lot larger than the graph from the article which means there is the possibility for an outlier or multiple. Aside from that, these two graphs were very similar to the ones that the author’s constructed and in fact, our confidence intervals even capture the graph that the authors produced.
 
 
-Figure 4: Republican Police Warmth (Left) and Democrat Police Warmth (Right)
+Figure 4: Republican Police Warmth (Left) and Democrat Police Warmth (Right)(refer to corresponding labeled graphs in RCODE.R)
 	
 	The frequency distributions as shown below in Figure 5 outline the same findings displayed in our previous visualizations. To be a republican who feels cold towards police in general is very uncommon, which could very well explain the evidence of correlation shown in our visualizations. However, considering our p-value of .05 this variable has a stronger relationship than that of any other we have presented so far, and most definitely low enough to suggest that the relationship is statistically significant.
 
-Figure 5: Republican (Left) and Democrat (Right) Police Warmth Response Frequencies
+Figure 5: Republican (Left) and Democrat (Right) Police Warmth Response Frequencies(refer to corresponding labeled graphs in RCODE.R)
 
 
 Perceptions on Police Bias
 
 	The variables that go into the chart below that was located in the article that we duplicated are probability of voting and perceptions of police bias. Perceptions of police bias was a question asked to the ANES participants where they were able to give a number 1-7 to show their perception of police bias in America at the time. Answers in the 1-3 range are answers that claim the police are biased towards white people. Answers that are 4 mean that there is no bias by police. Answers that range from 5-7 mean that the participants feel that the police force is biased towards black people. The author separated these log odds based on political affiliation based on identifying as either a republican or a democrat. The original article found, as you can see by the graph in Figure 6, that as republican police bias went up, which meant they thought the police favored black people, their probability decreased. The opposite is true for the democrats, as their perception of police bias increased, their probability of voting increased as well based on log odds. The republican and democrats have an inverse relationship which makes sense since this political election was very polarizing.
 	
-Figure 6: Original Article’s Police Bias Graph
+Figure 6: Original Article’s Police Bias Graph(refer to page 15 of https://onlinelibrary.wiley.com/doi/epdf/10.1111/1745-9125.12239)
 
 	Our duplicated graphs are shown below in Figure 7. As you can see, our graphs are not exactly the same as the article’s. This could be due to the smaller sample size or different weights given to different variables when making the log odds graph. In our comparison of police racial bias and probability of voting for republicans, we found there to be little to no change as police racial bias increases, this is different from the original article which finds that as police racial bias increases for republicans they are more likely to vote. In our next graph we see that democratic racial bias vs. voting also has little change but there seems to be a slight downward trend. This is different from the original as the original had positive association between the two variables for democrats. Due to the reasoning above and the confidence intervals we cannot assume that the author is wrong as there are multiple variables that could have skewed the data, overall we do not have enough evidence to disprove what the author claims.
 
-Figure 7: Republican (Left) and Democrat (Right) Perceived Police Bias
+Figure 7: Republican (Left) and Democrat (Right) Perceived Police Bias(refer to corresponding labeled graphs in RCODE.R)
+
 	The wide confidence interval in Figure 7 can be explained by the frequency distributions shown below. This is due to there being a lack of responses for the categories of five through seven, as shown in Figure 8. Due to both the lack of responses as shown in the frequency distribution and the smaller sample size used our graphs had much less variance and much higher minimum values. 
 
-Figure 8: Republican (Left) and Democrat (Right) Police Warmth Response Frequencies
+Figure 8: Republican (Left) and Democrat (Right) Police Warmth Response Frequencies(refer to corresponding labeled graphs in RCODE.R)
 
 Conclusion
 
