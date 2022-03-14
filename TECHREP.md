@@ -30,43 +30,7 @@ Results
 
 	We found that in a slightly smaller sample size of about seventeen hundred, the results were not the same as that of the authors findings. However, we cannot say that the authors' findings were statistically insignificant. We found that Republican Police Warmth has strong statistical evidence to show correlation with likelihood of voting. Additionally, some of the rest of our results displayed moderate evidence of correlation between variables but not quite enough to suggest correlation. We will examine each of these variables in depth and compare our variable visualizations and summaries produced to that of the authors. All visualizations will be produced by R, just as the authors originally used. All variables are shown as predictors of our dependent variable, probability of voting, which was converted to log odds for the purpose of our visualizations.
 	
-Variable Name
-Estimate
-Std. Error
-Z Value
-P Value
-Dem. Police Bias
--0.05535
-0.15260  
--0.363    
-0.717    
-Rep. Police Bias
--6.773e-16
-1.452e-1
-0.000        
-1
-Dem. BLM Warmth
-0.004741   
-0.003870   
-1.225    
-0.221    
-Rep. BLM Warmth
--0.005826   
-0.004830  
--1.206    
-0.228    
-Dem. Police Warmth
-0.004227
-0.004059
-1.041
-0.298
-Rep. Police Warmth
-0.016005   
-0.005866   
-2.729  
-0.00636**
-
-    *Represents p < .05
+*LOGISTIC REGRESSION TABLE PRODUCED BY RCODE.r"
 	As shown above, the only relationship we can observe that is strong enough to be deemed statistically significant is “Republican Police Warmth” with the lowest p-value of any of our variables. This doesn’t necessarily prove causation between Republican Police Warmth and Voting likelihood, but it does show strong evidence for correlation. All of the other variables have too high of p values to suggest that the relationship shown is statistically significant. In the case of BLM Warmth for both parties, and Democrat police warmth we can say that there is SOME relationship shown. That being a positive correlation among Democrats and negative correlation among Republicans. However, due to the generally high p-values of anywhere from .22 to .3 we cannot say that this relationship shown is significant. The rest of our relationships shown through the logistic regression table have much too high p values of .7 and up. In general our findings from this table tell us that the only significant variable that we found to be associated with likelihood of voting is Police Warmth as a Republican. Now that we have determined what relationships are significant, and duplicated the logistic regression table, we must attempt to duplicate the visualizations. We will do so individually for each variable, respectively.
   
   
